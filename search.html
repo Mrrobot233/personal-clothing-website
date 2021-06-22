@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Clothing Store </title>
+        <meta charset="UTF-8" />
+        <meta name="viewport"  content="width=device-width, intital-scale=1.0" />
+        <link rel="stylesheet" href="style.css">  
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    </head>
+
+    <style>
+        .background-text{
+            padding-top: 0px;
+
+        }
+        .input[type=text] { 
+            display: block;
+            height: 100%;
+            cursor: pointer;
+            width: 105%;
+            padding: 15px 0px 15px 80px;
+            border-radius: 0px;
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;   /* Removes the effects that shows when you want to type in the text  */
+            font-weight: 900;
+            font-size: 70px;
+            font-family: 'Tangerine', serif;
+            background-color: #616161;
+            color: antiquewhite; 
+        }
+        .background-text span{
+            position: absolute;
+            top: 63%;
+            transform: translate(-50%);
+            left: 30px;
+            font-size: 50px;
+
+        }
+        ::placeholder{
+           color:wheat;       /*  Changes the background color of "search here..." for the placeholder */
+           left: 300px;
+        }
+
+        .cancel-search{
+            width: 0%;
+            align-self: center;
+            margin: auto;
+            padding-left: 10px;
+            padding-top: 40px;
+           
+        }
+
+        .nav-btn{
+            color: wheat;
+            padding-right: 10px;
+            transition: 0.4s;
+            align-self: center;
+        }
+        .material-icons{
+            font-size: larger;
+        }
+    </style>
+
+
+    <body>
+    <div class="background-text">
+        <input type="text" class="input" placeholder="Search here...."> 
+    </div>
+
+    <div class="cancel-search">
+        <a href="index.html" class="nav-btn"><span class="material-icons"> cancel </span></a>
+    </div>
+    </body>
+</html>
