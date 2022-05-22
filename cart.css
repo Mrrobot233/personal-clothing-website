@@ -65,7 +65,7 @@
 }
 
 .product-remove:hover{
-    background-color: rgb(200, 149, 55);
+    background-color: #85005B;
     color: black;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .btn:hover{
-    background-color: rgb(200, 149, 55);;
+    background-color: #85005B;
 }
 
 

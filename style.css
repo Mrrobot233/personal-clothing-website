@@ -95,7 +95,7 @@ a:active{
     transition: 0.4s;
 }
 .link:hover{
-    color: rgb(200, 149, 55);
+    color: #85005B;
 }
 
 .navigation-buttons{
@@ -114,7 +114,7 @@ a:active{
 }
 
 .nav-btn:hover{
-    color: rgb(200, 149, 55);;
+    color: #85005B;
 }
 
 .background-picture img{
@@ -161,7 +161,7 @@ a:active{
 
 }
 .btn:hover{
-    background: rgba(117, 116, 116, 0.684);
+    background: #85005B;
     border-radius: 50px;
 }
 
@@ -233,7 +233,7 @@ a:active{
 }
 
 .btn-email:hover{
-    color: rgb(200, 149, 55);;
+    color: #85005B;
 }
 
 .copyright{
