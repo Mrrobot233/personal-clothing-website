@@ -39,6 +39,25 @@ nav{
     text-shadow: 4px 4px 4px black;
     align-self: center;
 }
+a:link{
+    text-decoration: none;
+    color: wheat;
+}
+
+a:visited{
+    text-decoration: none;
+    color: wheat;
+}
+
+a:hover{
+    text-decoration: none;
+    color: wheat;
+}
+
+a:active{
+    text-decoration: none;
+    color: wheat;
+}
 
 .items-list{
     display: flex;
@@ -124,6 +143,7 @@ nav{
 
 .sidebar a:hover{
     background-color: #85005B;
+    color: black;
     transition: 0.5s;
     /* letter-spacing: 4px;
     text-transform: uppercase; */
