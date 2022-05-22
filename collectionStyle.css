@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Tangerine', serif;
-    font-size: 48px;
+    font-size: 20px;
     background-color: white;
 }
 
@@ -116,7 +116,8 @@ a:active{
  }
   
 .sidebar{
-    width: 15%;
+    width: 37vh;
+    height: 100%;
     background-color: #616161;
 
 }
@@ -147,6 +148,10 @@ a:active{
     transition: 0.5s;
     /* letter-spacing: 4px;
     text-transform: uppercase; */
+}
+
+.side-nav{
+    margin-left: 25px;
 }
 
 
@@ -246,6 +251,35 @@ navigations ul .bottom-feats.show{
     }
 }
 
+.outfits{
+    position: absolute;
+    top: 200px;
+    left: 400px
+}
 
+img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
 
+.items{
+    display: inline;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 3em;
+}
 
+.i{
+    display: inline;
+    float: left;
+    padding: 10px;
+    border: #000;
+    border-style: solid;
+    border-width: 1px;
+}
