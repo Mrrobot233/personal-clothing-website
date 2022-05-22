@@ -17,6 +17,7 @@
 
 .cart{
     display: flex;
+    margin-bottom: 10vh;
 }
 .products{ flex: 0.75;}
 
@@ -64,7 +65,7 @@
 }
 
 .product-remove:hover{
-    background-color: mediumvioletred;
+    background-color: rgb(200, 149, 55);
     color: black;
 }
 
@@ -106,7 +107,7 @@
 }
 
 .btn:hover{
-    background-color: mediumvioletred;;
+    background-color: rgb(200, 149, 55);;
 }
 
 

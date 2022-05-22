@@ -5,13 +5,26 @@
 }
 body{
     font-family: 'Tangerine', serif;
+    color: wheat;
     font-size: 48px;
     background-color: #616161;
 }
 .background-picture{
     height: 100%;
     width: 100%;
+    opacity: 0.6;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(amanda-vick-ohWf6YuzOQk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.bg-picture{
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(clothrack.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -23,9 +36,10 @@ header{
     height: 100vh;
     width: 100%;
 }
+
 nav{
     background-color: #616161;
-    height: 8vh;
+    height: 14vh;
     width: 100%;
     display: flex;
     align-self: center;
@@ -40,6 +54,27 @@ nav{
     font-size: 45px;
     text-shadow: 4px 4px 4px black;
     align-self: center;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: wheat;
+}
+
+a:visited{
+    text-decoration: none;
+    color: wheat;
+}
+
+a:hover{
+    text-decoration: none;
+    color: wheat;
+}
+
+a:active{
+    text-decoration: none;
+    color: wheat;
 }
 
 .items-list{
@@ -60,7 +95,7 @@ nav{
     transition: 0.4s;
 }
 .link:hover{
-    color: mediumvioletred;
+    color: rgb(200, 149, 55);
 }
 
 .navigation-buttons{
@@ -79,7 +114,7 @@ nav{
 }
 
 .nav-btn:hover{
-    color: mediumvioletred;
+    color: rgb(200, 149, 55);;
 }
 
 .background-picture img{
@@ -126,14 +161,15 @@ nav{
 
 }
 .btn:hover{
-    background: mediumvioletred;
+    background: rgba(117, 116, 116, 0.684);
+    border-radius: 50px;
 }
 
 
 .newsletter{
     /* bottom: 100%; */
     margin-right: 50px;
-    position: relative;
+    position: static;
     justify-content: center;
     text-align: center;
     height: auto;
@@ -197,7 +233,7 @@ nav{
 }
 
 .btn-email:hover{
-    color: mediumvioletred;
+    color: rgb(200, 149, 55);;
 }
 
 .copyright{
@@ -206,7 +242,7 @@ nav{
     position: relative;
     justify-content: center;
     text-align: center;
-    height: auto;
+    height: 30vh;
     width: 100vw;
     padding-top: 75px;
     color: wheat;
@@ -215,6 +251,11 @@ nav{
 
 .text25{
     font-size: normal;
+}
+
+.text-about{
+    padding: 10vh 20vh 10vh 20vh;
+    background-color: #616161;
 }
 
 
